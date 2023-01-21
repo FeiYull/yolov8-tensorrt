@@ -11,7 +11,7 @@
 
 ## 介绍
 YOLOv8部署（基于TensorRT、CUDA），一个end2end的cuda c实现。<br>
-（如果您还想在TensorRT下部署YOLOv7、YOLOv6、YOLOv5、YOLOv4、YOLOv3等模型，请看我的另一个仓库：TensorRT-Alpha：https://github.com/FeiYull/tensorrt-alpha）
+如果您还想在TensorRT下部署YOLOv7、YOLOv6、YOLOv5、YOLOv4、YOLOv3等模型，请看我的另一个仓库：TensorRT-Alpha：https://github.com/FeiYull/TensorRT-Alpha
 注：opencv仅用于可视化！
 
 ## 更新
@@ -64,10 +64,19 @@ vim common.cmake
     <center>yolov8n : Offical( left ) vs Ours( right )	<!--标题--></center>
     <br>		<!--换行-->
     <br>		<!--换行-->
-    <center>	<!--将图片和文字居中-->
-    <img src=".github/run.jpg"
-         alt="无法显示图片时显示的文字"
-         style="zoom:100%"/>
-    <br>		<!--换行-->
-    <center>运行速度🚀🚀🚀(640)<!--标题--></center>
 </div>
+
+🍉We will test the time of all models on tesla v100 and A100! Now let's preview the performance of yolov8n on RTX2070m(8G)：
+<div align='center'>
+
+| model | video resolution | model input size |GPU Memory-Usage |GPU-Util|
+  :-: | :-: | :-: | :-: | :-: |
+|yolov8n|1920x1080|8x3x640x640|1093MiB/7982MiB| 14%| 
+
+ <center>	<!--将图片和文字居中-->
+<img src=".github/run.jpg"
+     alt="无法显示图片时显示的文字"
+     style="zoom:40%"/>
+<br>		<!--换行-->
+<center>🚀cost time per frame	<!--标题--></center>
+    <br>		<!--换行-->
