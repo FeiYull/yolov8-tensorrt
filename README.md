@@ -10,8 +10,8 @@
   </div>
 
 ## 性能速览
-🍉我们来看看yolov8n在Nvidia RTX2070m(8G)上的性能表现（TensorRT-Alpha即将会在tesla V100和A100上统计所有模型的性能开销）：
-更多性能测试，在B站[![](https://img.shields.io/badge/bilibili-blue.svg?logo=bilibili)](https://www.bilibili.com/video/BV1vY4y1d7Dr/?spm_id_from=333.999.0.0&vd_source=a96c9c3f099f4167807291a34fd50fd5)可以观看。
+🍉我们来看看yolov8n在Nvidia RTX2070m(8G)上的性能表现：更多性能测试，在B站[![](https://img.shields.io/badge/bilibili-blue.svg?logo=bilibili)](https://www.bilibili.com/video/BV1vY4y1d7Dr/?spm_id_from=333.999.0.0&vd_source=a96c9c3f099f4167807291a34fd50fd5)可以观看。
+
 <div align='center'>
 
 | model | video resolution | model input size |GPU Memory-Usage |GPU-Util|
@@ -25,10 +25,10 @@
 <br>		<!--换行-->
 <center>🚀cost time per frame	<!--标题--></center>
     <br>		<!--换行-->
+</div>
 
 ## 介绍
-YOLOv8部署（基于TensorRT、CUDA），一个end2end的cuda c实现。<br>
-如果您还想在TensorRT下部署YOLOv7、YOLOv6、YOLOv5、YOLOv4、YOLOv3等模型，请看我的另一个仓库：TensorRT-Alpha：https://github.com/FeiYull/TensorRT-Alpha
+YOLOv8部署（基于TensorRT、CUDA），一个end2end的cuda c实现。如果您还想在TensorRT下部署YOLOv7、YOLOv6、YOLOv5、YOLOv4、YOLOv3等模型，请看我的另一个仓库：TensorRT-Alpha：https://github.com/FeiYull/TensorRT-Alpha
 注：opencv仅用于可视化！
 
 ## 更新
